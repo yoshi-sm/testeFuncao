@@ -108,6 +108,7 @@ function CadastroBeneficiariosNovos(id) {
                 ModalDialog("Sucesso!", "cadastro realizado");
                 $("#formCadastro")[0].reset();
                 $('#formBeneficiario')[0].reset();
+                $('#inicioTabela').empty();
             }
     });
 }
